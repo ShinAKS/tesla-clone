@@ -1,0 +1,29 @@
+.button {
+  background-color: rgba(23, 26, 32, 0.6);
+  height: 40px;
+  width: 256px;
+  margin: 8px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  border-radius: 100px;
+  opacity: 0.85;
+}
+
+.button > a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  margin-left: 30%;
+}
+
+.button__white {
+  background-color: white;
+  opacity: 0.65;
+}
+
+.button__white > a {
+  opacity: 0.65;
+  color: black;
+}
